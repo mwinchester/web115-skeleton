@@ -1,0 +1,82 @@
+body {
+    background: url("../images/olliepond.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: rgb(48, 54, 11);
+    font-size: 1.55em;
+    font-weight: 300;
+}
+
+.container {
+    background: rgba( 200, 200, 200, .85)
+}
+
+header h1 {
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin: 15px 10px;
+    box-shadow: 10px 10px 5px grey;
+}
+
+
+/*****************Buttons ************/
+
+.button {
+    display: inline-block;
+    height: 38px;
+    padding: 0 30px;
+    color: rgb(48, 54, 11);
+    text-align: center;
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: .1rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    white-space: nowrap;
+    background-color: rgb(200, 200, 200);
+    border-radius: 40px;
+    border: 1px solid rgb(48, 54, 11);
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+.button:hover,
+button:hover,
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+input[type="button"]:hover,
+.button:focus,
+button:focus,
+input[type="submit"]:focus,
+input[type="reset"]:focus,
+input[type="button"]:focus {
+    color: #333;
+    border-color: #888;
+    outline: 0;
+}
+
+.button.button-primary,
+button.button-primary,
+input[type="submit"].button-primary,
+input[type="reset"].button-primary,
+input[type="button"].button-primary {
+    color: #FFF;
+    background-color: green;
+    border-color: greenyellow;
+}
+
+.button.button-primary:hover,
+button.button-primary:hover,
+input[type="button"].button-primary:focus {
+    color: #FFF;
+    background-color: darkgreen;
+    border-color: mediumpurple;
+}
